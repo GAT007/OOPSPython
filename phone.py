@@ -12,4 +12,4 @@ class Phone(Item):
         self.broken_phones = broken_phones
 
     def __repr__(self):
-            return f"{self.__class__.__name__}('{self.name}', {self.price}, {self.quantity}, {self.broken_phones})"
+            return f"{self.__class__.__name__}('{self.name}', {self.__price}, {self.quantity}, {self.broken_phones})"
